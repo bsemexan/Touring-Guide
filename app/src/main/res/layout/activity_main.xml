@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.android.atlanta.MainActivity">
+
+    <TextView
+        android:id="@+id/stone_mountain"
+        style="@style/CategoryStyle"
+        android:background="@color/category_two"
+        android:text="@string/category_stone_mountain"/>
+
+
+    <TextView
+        android:id="@+id/aquarium"
+        style="@style/CategoryStyle"
+        android:background="@color/category_one"
+        android:text="@string/category_aquarium"/>
+
+
+    <TextView
+        android:id="@+id/lenox_mall"
+        style="@style/CategoryStyle"
+        android:background="@color/category_two"
+        android:text="@string/category_lenox"/>
+
+    <TextView
+        android:id="@+id/high_museum"
+        style="@style/CategoryStyle"
+        android:background="@color/category_one"
+        android:text="@string/category_high_museum"/>
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.atlanta">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StoneMountainActivity"
+            android:label="@string/category_stone_mountain" />
+        <activity
+            android:name=".AquariumActivity"
+            android:label="@string/category_aquarium" />
+        <activity
+            android:name=".LenoxActivity"
+            android:label="@string/category_lenox" />
+        <activity
+            android:name=".MuseumActivity"
+            android:label="@string/category_high_museum" />
+    </application>
+
+</manifest>

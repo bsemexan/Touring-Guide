@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_items_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height" />
+
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:paddingTop="16dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="lutti" />
+
+        <TextView
+            android:id="@+id/description_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="top"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            tools:text="one" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground" />
+
+</RelativeLayout>
